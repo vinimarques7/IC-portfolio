@@ -89,3 +89,41 @@ h3{
         width: 100% !important;
     }
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;  
+    font-size: 1rem;
+}
+
+.form-input{
+    display: flex;
+    margin-top: 0.7rem;
+    width: 50%;
+    border-color: rgb(2,0,36);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+
+.enviar{
+    width: 10%;
+    height: 5vh;
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+
+.enviar:hover{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5%;
+}
+
